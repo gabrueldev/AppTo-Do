@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'dj-rest-auth',
+    'dj_rest_auth',
     'authjwt',
     'afazeres',
 ]
