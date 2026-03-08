@@ -1,14 +1,20 @@
-# CRUD - App To-Do
+# App To-Do
 
-### Gabriel Rodrigues
-<hr style="color: black; width: 40%; margin: 0px">
-<br>
+### Já pensou em anotar suas tarefas?
+Essa API proporciona exatamente isso, conta com uma lista de tarefas feitas pelo usuário, onde chegará email's lembrando-o para realizá-las, para que possa relembrá-lo de seus afazeres. A ideia de enviar emails para lembrar nossos usuários de realizar as tarefas anotadas é uma forma de não deixar a lista esfriar, acumulando assim diversos afazeres e sobrecarregando. As tarefas contam com um prazo, tarefas mensais, diárias e quaisquer outras categorias que você desejar.
 
-<p style="margin-left: 10px;">
-    Este CRUD foi feito com objetivo de ser terminado em 1 dia tendo assim 24 horas para ser feito desde o primeiro commit, começando na verdade dia 24/02/2026 as 22h16, aa intenção não é terminar o projeto, é fazer o melhor possível em pouco tempo e testar minhas habilidades, NÃO tendo as horas da madrugada, terminará exatamente às 22h16 do dia 25/02/2026 e sera público.
-<p/>
+## Tecnologias
 
-##### Referencias de como baixar o código ou usá-lo não serão documentadas com intuito de testá-lo se o próprio código fala por sí só.
++ Python 3.12
++ Django REST
++ Json Web Token
++ MySQL
++ Pytest | Testes Automatizados
 
-<p style="margin-left: 50%;">GR<p/>
-<hr style="color: black;">
+Outros requisitos estão no requirements.txt, basta istalá-los.
+
+    pip install -r requirements.txt
+
+### Projeto em andamento...
+
+Ainda em desenvolvimento, resta um site responsivo e simples em html + css, para consumir a API, e também o desenvolvimento do servidor com Redis + Celery para oferecer os emails.
