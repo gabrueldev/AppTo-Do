@@ -1,4 +1,3 @@
-
 from django.urls import path
 from .views import cadaster_view, login_view, delete_view, edit_view
 
