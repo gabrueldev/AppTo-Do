@@ -1,4 +1,3 @@
-
 import pytest
 from rest_framework.exceptions import ValidationError
 from ..views import cadaster_view, login_view, delete_view, edit_view

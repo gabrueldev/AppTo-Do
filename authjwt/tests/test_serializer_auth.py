@@ -1,4 +1,3 @@
-
 import pytest
 from ..serializers import cadaster_serializer
 from django.contrib.auth.models import User

@@ -1,4 +1,3 @@
-
 from django.contrib.auth.models import User
 from .serializers import cadaster_serializer, login_serializer
 from django.contrib.auth import get_user_model
